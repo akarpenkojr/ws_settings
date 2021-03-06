@@ -1,0 +1,8 @@
+<templateSet group="Zen CSS">
+  <template name="br:t" value="border: 1px solid $END$" description="border: ..." toReformat="false" toShortenFQNames="true" />
+  <template name="fsc" value="/*&#10; * Copyright 2020, Innotera, ltd&#10; */&#10; &#10;$END$" description="_create a new css file (innotera)" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+</templateSet>

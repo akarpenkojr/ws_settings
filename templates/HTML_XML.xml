@@ -1,0 +1,8 @@
+<templateSet group="HTML/XML">
+  <template name="fsh" value="&lt;!--&#10;    Copyright 2020, Innotera, ltd&#10;--&gt;&#10;&#10;&lt;div class=&quot;$ITEM$&quot;&gt;$END$&lt;/div&gt;" description="_create a new template for vue component" toReformat="false" toShortenFQNames="true">
+    <variable name="ITEM" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+</templateSet>
