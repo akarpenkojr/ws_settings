@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
+      <mapping pattern=".prettierrc" type="JSON" />
       <mapping pattern="appendData.js" type="JavaScript" />
       <mapping pattern="phonenumberPageStore.js" type="JavaScript" />
       <mapping ext="gradle.kts" type="Kotlin" />
