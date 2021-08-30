@@ -5,7 +5,7 @@
     <property name="description" />
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2018.3.2.0.0</property>
-    <property name="modified">2021-02-12T22:10:47</property>
+    <property name="modified">2021-08-30T21:24:06</property>
     <property name="originalScheme">Atom One Dark</property>
     <property name="vendorMail" />
     <property name="vendorName" />
@@ -19,10 +19,10 @@
   </font>
   <font>
     <option name="EDITOR_FONT_NAME" value="Monospaced" />
-    <option name="EDITOR_FONT_SIZE" value="12" />
+    <option name="EDITOR_FONT_SIZE" value="14" />
   </font>
   <option name="CONSOLE_FONT_NAME" value="Monospaced" />
-  <option name="CONSOLE_FONT_SIZE" value="16" />
+  <option name="CONSOLE_FONT_SIZE" value="13" />
   <option name="CONSOLE_LINE_SPACING" value="1.4" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="98c379" />
