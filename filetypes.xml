@@ -4,6 +4,7 @@
       <mapping pattern=".prettierrc" type="JSON" />
       <mapping pattern="appendData.js" type="JavaScript" />
       <mapping pattern="phonenumberPageStore.js" type="JavaScript" />
+      <mapping ext="space.kts" type="Kotlin" />
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
       <mapping pattern="addNewUser.js" type="PLAIN_TEXT" />
