@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="18">
     <extensionMap>
       <removed_mapping ext="env" type=".env file" />
+      <mapping pattern=".env" type="Env File" />
       <mapping pattern=".prettierrc" type="JSON" />
       <mapping pattern="appendData.js" type="JavaScript" />
       <mapping pattern="phonenumberPageStore.js" type="JavaScript" />
@@ -15,6 +16,7 @@
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
       <removed_mapping ext="env" approved="true" type="Env File" />
       <removed_mapping ext="psd" approved="true" type="Image" />
+      <removed_mapping pattern=".env" approved="true" type=".env file" />
     </extensionMap>
   </component>
 </application>
