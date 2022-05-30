@@ -1,0 +1,46 @@
+<templateSet group="JavaScript">
+  <template name="cnsl" value="console.log('___---_-_!!!_-_---___', $END$);" description="console.log" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="ECMAScript6" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="sttm" value="setTimeout(()=&gt;{&#10;   $END$&#10;}, 500);" description="setTimeout" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="ECMAScript6" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="rfc" value="// imports&#10;import React from 'react'&#10;&#10;// import components&#10;&#10;&#10;// import styles&#10;&#10;&#10;function $TM_FILENAME_BASE$(props) {&#10;   return (&#10;      &lt;&gt;&#10;         $END$&#10;      &lt;/&gt;&#10;   )&#10;}&#10;&#10;export default $TM_FILENAME_BASE$&#10;" description="_create react functional component" toReformat="false" toShortenFQNames="true">
+    <variable name="TM_FILENAME_BASE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="rccb" value="//imports&#10;import React, {Component} from 'react'&#10;&#10;// import components&#10;&#10;&#10;// import styles&#10;&#10;&#10;class $TM_FILENAME_BASE$ extends Component {&#10;constructor(props) {&#10;&#9;&#9;super(props);&#10;&#9;&#9;this.state = {&#10;&#9;&#9;&#9;&#10;&#9;&#9;};&#10;&#9;}&#10;&#9;&#10;   render() {&#10;      return (&#10;         &lt;&gt;&#10;            $END$&#10;         &lt;/&gt;&#10;      )&#10;   }&#10;}&#10;&#10;export default $TM_FILENAME_BASE$&#10;" description="_create base react class component" toReformat="false" toShortenFQNames="true">
+    <variable name="TM_FILENAME_BASE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="exf" value="export {default} from '$END$'" description="_export default data" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="fsjc" value="/*&#10; * Copyright 2020, Innotera, ltd&#10; */&#10;&#10;define([&#10;    &quot;module&quot;,&#10;    &quot;vue-require/router/push&quot;,&#10;    &quot;fitstatus/common/utils/cssLoader&quot;,&#10;    &quot;text!./$fileNameWithoutExtension$.css&quot;,&#10;    &quot;text!./$fileNameWithoutExtension$.html&quot;&#10;], function (module,  push, cssLoader, $fileNameWithoutExtension$Styles, template) {&#10;    &quot;use strict&quot;;&#10;    return {&#10;        template: template,&#10;        &#10;        components: {},&#10;&#10;        data() {&#10;            return {&#10;            }&#10;        },&#10;&#10;        computed: {},&#10;        &#10;        watch: {},&#10;&#10;        mounted() {&#10;            cssLoader($fileNameWithoutExtension$Styles)&#10;        },&#10;&#10;        created() {},&#10;&#10;        beforeDestroy() {},&#10;        &#10;        methods: {}&#10;    };&#10;});&#10;" description="_create a new js file template for vue component" toReformat="false" toShortenFQNames="true">
+    <variable name="fileNameWithoutExtension" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="fsjf" value="/*&#10; * Copyright 2020, Innotera, ltd&#10; */&#10;&#10;define([&#10;    &quot;module&quot;,&#10;    &quot;vue-require/router/push&quot;,&#10;    &quot;fitstatus/common/utils/cssLoader&quot;,&#10;    &quot;text!./$fileNameWithoutExtension$.css&quot;,&#10;    &quot;text!./$fileNameWithoutExtension$.html&quot;&#10;], function (module,  push, cssLoader, $fileNameWithoutExtension$Styles, template) {&#10;    &quot;use strict&quot;;&#10;    return  function () {&#10;        this.template = template;&#10;&#10;        this.components = {&#10;        };&#10;&#10;        this.data = () =&gt; {&#10;            return {&#10;            }&#10;        };&#10;&#10;        this.computed = {};&#10;&#10;        this.watch = {};&#10;&#10;        this.mounted = () =&gt; {&#10;            cssLoader($fileNameWithoutExtension$Styles)&#10;        };&#10;&#10;        this.created = () =&gt; {};&#10;&#10;        this.beforeDestroy = () =&gt; {};&#10;        &#10;        this.methods = {};&#10;    };&#10;});&#10;" description="_create a new js file template for vue component" toReformat="false" toShortenFQNames="true">
+    <variable name="fileNameWithoutExtension" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+</templateSet>
