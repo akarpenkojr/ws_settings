@@ -1,0 +1,8 @@
+<templateSet group="React">
+  <template name="rfc" value="import React from 'react'&#10;&#10;/**&#10; * .&#10; *&#10; * @prop .&#10; */&#10;interface IProps {&#10;   &#10;}&#10;&#10;export const $TM_FILENAME_BASE$: React.FC&lt;IProps&gt; = ({}:IProps) =&gt; {&#10;   return (&#10;      &lt;&gt;&#10;         $END$&#10;      &lt;/&gt;&#10;   )&#10;}&#10;&#10;$TM_FILENAME_BASE$.displayName = '$TM_FILENAME_BASE$'" description="_create react functional component" toReformat="false" toShortenFQNames="true">
+    <variable name="TM_FILENAME_BASE" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>
